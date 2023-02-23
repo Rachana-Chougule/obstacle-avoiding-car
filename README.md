@@ -24,5 +24,7 @@ After receiving the signal from the ultrasonic sensor, Arduino instructs the mot
 After that, it signals the driver once more to turn the vehicle to the left.
 
 Additionally, the vehicle is turned to the left until there is no obstruction in front of it. The vehicle resumes its forward motion and continues to advance until it encounters yet another obstacle. This procedure is repeated until the power is turned off. You can customize the code by changing things like the threshold distance to meet your needs. Upload the code that was provided earlier and install the libraries.
+" #include <Servo.h>
+#include <NewPing.h> "
 
 Associate the power supply to the Arduino board.
